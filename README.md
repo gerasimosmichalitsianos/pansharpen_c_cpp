@@ -17,7 +17,8 @@
      Data from five 1-band Geotiffs are necessary to run this program.
      These Geotiffs are a panchromatic image file (high-res.) and the 
      Geotiffs holding pixel data for the red, green, blue, and NIR bands.
-     These files should contained unsigned integer (short in C) array data. 
+     These 1-band files should contain 2-byte unsigned integer 
+     ("short" data-type in C) array data. 
    
   ###### OUTPUTS:
  
