@@ -38,7 +38,7 @@
      (4) <GREEN_GEOTIFF>{.tif} 
      (5) <BLUE_GEOTIFF>{.tif}
 
-   Example: 
+###### EXAMPLE USAGE: 
    
      $ ./pansharpen pan.tif NIR.tif red.tif green.tif blue.tif 
  
