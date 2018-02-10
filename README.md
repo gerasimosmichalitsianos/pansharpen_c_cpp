@@ -1,8 +1,8 @@
- # NAME:
+ ###### NAME:
  
    pansharpen
    
- # DESCRIPTION:
+ ###### DESCRIPTION:
  
    This C/C++ program is meant to pansharpen a set of 4 
    one-band Geotiff files holding low-resolution imagery for 
