@@ -18,7 +18,7 @@
      These Geotiffs are a panchromatic image file (high-res.) and the 
      Geotiffs holding pixel data for the red, green, blue, and NIR bands.
      These 1-band files should contain 2-byte unsigned integer 
-     ("short" data-type in C) array data. 
+     ("short" data-type in C) pixel array data. 
    
   ###### OUTPUTS:
  
