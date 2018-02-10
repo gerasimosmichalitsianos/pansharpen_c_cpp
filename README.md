@@ -1,8 +1,8 @@
 # pansharpeningCandCPP
 C/C++ code for pan-sharpening using FIHS and Brovey image fusion methods. 
 
- NAME:
-   pansharpen
+ NAME:\n
+   pansharpen\n
  DESCRIPTION:
    This C/C++ program is meant to pansharpen a set of 4 
    one-band Geotiff files holding low-resolution imagery for 
