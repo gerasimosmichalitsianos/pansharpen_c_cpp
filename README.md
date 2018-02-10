@@ -45,4 +45,16 @@
   
    Gerasimos "Geri" Michalitsianos
    gerasimosmichalitsianos@gmail.com
+   
+   ![Alt text](https://lh3.googleusercontent.com/-p8HiA4RuEJ8/VYmh_ttK-uI/AAAAAAAAADY/x3RXoBroTO8/w426-h390/pansharpeningExamples.jpg)
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
 
