@@ -28,6 +28,12 @@
      file passed-in. One 4-band output file is a result of using the Brovey 
      transform pan-sharpening, and the other using the Fast Intensity Hue 
      Saturation pan-sharpening technique (FIHS).
+     
+  ###### INSTRUCTIONS: 
+  
+     In makefile, be sure to update the directory strings as appropriate 
+     for your computer. These directory strings should reflect the 
+     installation location of your GDAL header (.h) and library (.a) files. 
    
   ###### USAGE: 
  
