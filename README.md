@@ -44,8 +44,5 @@
   AUTHOR: 
   
    Gerasimos "Geri" Michalitsianos
-   
    gerasimosmichalitsianos@gmail.com
-   
-   10 February 2018
 
