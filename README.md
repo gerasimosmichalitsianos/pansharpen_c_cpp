@@ -58,7 +58,8 @@
    
  ###### EXAMPLE OUTPUT IMAGES: 
  
-        Original (RGB) and pan-sharpened (RGB,NIR) Landsat 8 imagery over Argostoli and Lixouri, Kefalonia, Greece. 
+        Original (RGB) & pan-sharpened (RGB,NIR) Landsat 8 imagery, Argostoli & Lixouri, Kefalonia, Greece. 
+        
    
    ![Alt text](https://lh3.googleusercontent.com/-p8HiA4RuEJ8/VYmh_ttK-uI/AAAAAAAAADc/1220R530qfM/w800-h800/pansharpeningExamples.jpg)
 
