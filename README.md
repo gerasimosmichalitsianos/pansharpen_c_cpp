@@ -60,9 +60,8 @@
  
         Original (RGB) and pan-sharpened (RGB,NIR) Landsat 8 imagery over Argostoli and Lixouri, Kefalonia, Greece. 
    
-   ![Alt text](https://lh3.googleusercontent.com/BPRzF_QYDjUVRONJgmLdeKa7QtPpamG-UXwTiPrSaJVGGZ1VKjcKnxb_lFaB2rchcIQhBRkMCJEyhH5iP6TE-Z5rmBU4OzCZ5-32cQ=w334-h220-rw)
-   
-   ![Alt text](https://plus.google.com/u/0/photos/113490551889761153116/album/6521397749005804017/6521397750007297810?authkey=COjt9Je0u5Lm9AE)
+   ![Alt text](https://lh3.googleusercontent.com/-p8HiA4RuEJ8/VYmh_ttK-uI/AAAAAAAAADc/1220R530qfM/w530-h486-n-rw/pansharpeningExamples.jpg)
+
    
    
    
