@@ -189,7 +189,11 @@ void readDimensionsGeotiff(
  *
  * Args:
  *  struct Geotiff: Geotiff structure returned by readGeotiff() holding
- *    higher-resolution
+ *    higher-resolution panchromatic image pixel data. Also holds the 
+ *    geotransform and projection information from the high-resolution
+ *    Geotiff, which is necessary to write-out the pan-sharpened 4-band 
+ *    Goetiff holding pan-sharpened RGB,NIR bands. 
+ *  float** : float** (2D) arrays for resampled RGB,NIR bands. 
  * Returns:
  *  int: a 0 for success.
  *
