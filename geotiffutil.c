@@ -230,7 +230,7 @@ int writeGeotiff(
  outHandleDriver = GDALGetDriverByName("GTiff");
  outDataset = GDALCreate( outHandleDriver ,
    outname  ,
-   ncols, nrows , 3 ,
+   ncols, nrows , 4 ,
    GDT_Float32, NULL);
  GDALSetGeoTransform( outDataset, geotransform) ;
  GDALSetProjection( outDataset , projection) ;
