@@ -9,6 +9,7 @@
 #include "gdalwarper.h"
 #include "ogr_spatialref.h"
 #include "resample.h"
+
 typedef std::string String;
 
 /* *******************************************************************
