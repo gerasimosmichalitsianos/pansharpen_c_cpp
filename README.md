@@ -86,7 +86,7 @@
 
       $ ls sample_data
       BLUE.TIF  GREEN.TIF  NIR.TIF  PAN.TIF  RED.TIF
-      $ DIR=$(pwd)
+      $ DIR=$(pwd)/sample_data
       $ docker run -v $DIR:$DIR pansharpen 
         -p $DIR/PAN.TIF
         -b $DIR/BLUE.TIF
