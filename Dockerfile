@@ -41,5 +41,6 @@ ADD makefile /
 
 # compile the C/C++ code
 # ----------------------
+RUN make clean
 RUN make
 ENTRYPOINT [ "bin/pansharpen" ]
