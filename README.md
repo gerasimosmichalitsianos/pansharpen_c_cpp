@@ -104,9 +104,9 @@
    
  ###### EXAMPLE OUTPUT IMAGES: 
  
-        Right: Original (RGB) image over Lakithra, island of Kefalonia, Greece
-        Center: Pan-sharpened RGB using Fast Intensity Hue Saturation pansharpening method (FIHS) 
-        Left: Pan-sharpened RGB using Brovey algorithm and/or technique.
+     Right: Original (RGB) image over Lakithra, island of Kefalonia, Greece
+     Center: Pan-sharpened RGB using Fast Intensity Hue Saturation pansharpening method (FIHS) 
+     Left: Pan-sharpened RGB using Brovey algorithm and/or technique.
    
    ![Alt text](https://i.imgur.com/LgkEZAC.png)
 
