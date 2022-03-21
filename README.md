@@ -62,7 +62,9 @@
       
       There will be 2 outputs: sharpened_Brovey.tif and sharpened_FIHS.tif. These will be 3 or 4
       band geotiffs written to the output directory (-o flag). If not supplying a -o flag, then the
-      current working directory $(pwd) is used instead.
+      current working directory $(pwd) is used instead. If z is 3, then the outputs will contain the
+      pan-sharpened RGB bands; if z is 4, then they will contain the pan-sharpened RGB and NIR bands
+      (4 bands).
       
       Note that the -z flag should be 3 or 4 for the number of bands in the output pan-sharpened 
       Geotiffs. It must be 3 or 4 (an integer).
