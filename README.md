@@ -29,7 +29,8 @@
       If not building a Docker image and running as a Docker container, 
       then it is expected that you will have the appropriate C/C++ GDAL header 
       and include files installed onto your system. In a Debian Linux system
-      (e.g. Mint, Ubuntu), these files may be installed simply with:
+      (e.g. Mint, Ubuntu), these files may be installed simply with
+      (assuming you are root):
       
       $ apt-get install gdal-bin -y
       $ apt-get install libgdal-dev -y
