@@ -36,6 +36,7 @@
       $ cd pansharpening_cpp/
       $ ls sample_data
       BLUE.TIF GREEN.TIF NIR.TIF  PAN.TIF RED.TIF
+      $ make clean
       $ make
       $ # now there should be an executable called pansharpen inside of bin/
       $ mkdir outputs
