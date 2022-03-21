@@ -1,41 +1,31 @@
 #
 # name of output executable program 
 #
-
-PROG = pansharpen  
+PROG = bin/pansharpen  
 
 #
 # name of C compiler 
 #
-
 CC = gcc  
 
 #
 # name of C++ compiler 
 #
-
 CPP = g++ 
 
 #
 # C++ compilation flags 
 #
-
-CPPFLAGS = -g -Wall -I/usr/include/gdal \
-	-I/root/.local/share/.cpan/build/Geo-GDAL-2.010301-MVePvE/gdal/ogr \
-	-I/root/.local/share/.cpan/build/Geo-GDAL-2.010301-MVePvE/gdal/port \
-	-I/root/.local/share/.cpan/build/Geo-GDAL-2.010301-MVePvE/gdal/gcore \
-	-I/root/.local/share/.cpan/build/Geo-GDAL-2.010301-MVePvE/gdal/alg
+CPPFLAGS = -g -Wall -std=c++17 -I/usr/include/gdal
 
 # 
 # flags for compilation  
 #
-
 LDFLAGS = -L/usr/lib -lgdal -lm 
 
- 
 all:
-	@$(CC) geotiffutil.c -c $(CPPFLAGS) $(LDFLAGS)  
-	@$(CPP) runpansharpen.cpp resample.cpp geotiffutil.c pansharpen.cpp $(CPPFLAGS) $(LDFLAGS) -o $(PROG)
+	@$(CC) src/GeotiffUtil.c -c $(CPPFLAGS) $(LDFLAGS) -o bin/GeotiffUtil.o
+	@$(CPP) src/Main.cpp src/Resample.cpp src/Pansharpen.cpp $(CPPFLAGS) $(LDFLAGS) -o $(PROG)
 clean: 
 	@rm $(PROG)
-	@rm *.o  
+	@rm bin/*.o
