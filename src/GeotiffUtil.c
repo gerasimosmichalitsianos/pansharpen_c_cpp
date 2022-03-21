@@ -108,7 +108,7 @@ void ReadProjectionGeotiff( GDALDatasetH reader,Geotiff *tiff ){
   // define pointers to Geotiff projection (character array)
   // and to the geotransform array
   // *******************************************************
-  double *pGT;
+  double *pGT = NULL;
  
   // take pointers just defined and point them to appropriate objects
   // **************************************************************** 

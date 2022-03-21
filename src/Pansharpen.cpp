@@ -165,6 +165,19 @@ void Pansharpen::PansharpenImagery( int n_out_bands,const char* OutDir ) {
       printf("ERROR (fatal): unknown GDAL imagery data type. Exiting ...");
       exit(1);
   }
+
+  // clean up resampled imagery as it is no longer needed
+  // ****************************************************
+  for( auto const& [FileNameKey,ImgFileName] : ImageryFileNames ) {
+    if( FileNameKey == "pan" ) {
+      continue;
+    } else {
+      // remove the bicubic resampled image file ... no longer needed
+      // ************************************************************
+      std::remove( ImgFileName.c_str() );
+    }
+  }
+
 }
 
 // template method
