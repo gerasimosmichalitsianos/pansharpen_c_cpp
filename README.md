@@ -13,10 +13,10 @@
      These Geotiffs are a panchromatic image file (high-res.) and the 
      Geotiffs holding pixel data for the red, green, blue, and NIR bands.
   ###### OUTPUTS:
-     Two 4-band Geotiff image files holding the pan-sharpened image bands 
-     for the pan-sharpened red, green, blue, and NIR bands. Their geotransform 
-     and projection information reflects the input panchromatic Geotiff image
-     file passed-in. One 4-band output file is a result of using the Brovey 
+     Two 3 or 4-band Geotiff image files holding the pan-sharpened image bands 
+     for the pan-sharpened red, green, blue, and (optionally) NIR bands. Their 
+     geotransform and projection information reflects the input panchromatic Geotiff image
+     file passed-in. One 3 or 4-band output file is a result of using the Brovey 
      transform pan-sharpening, and the other using the Fast Intensity Hue 
      Saturation pan-sharpening technique (FIHS).
   ###### STANDARD USAGE WITHOUT DOCKER
