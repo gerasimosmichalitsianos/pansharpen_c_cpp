@@ -57,8 +57,12 @@
       The panchromatic band should be the higher resolution geotiff, with the red, green, blue, and NIR
       bands as the lower-resolution inputs.
       
+      There will be 2 outputs: sharpened_Brovey.tif and sharpened_FIHS.tif. These will be 3 or 4
+      band geotiffs written to the output directory (-o flag). If not supplying a -o flag, then the
+      current working directory $(pwd) is used instead.
+      
       Note that the -z flag should be 3 or 4 for the number of bands in the output pan-sharpened 
-      Geotiffs.
+      Geotiffs. It must be 3 or 4 (an integer).
   
   ###### USAGE WITH DOCKER: 
 
