@@ -1,7 +1,5 @@
  ###### NAME:
- 
      pansharpen
-   
  ###### DESCRIPTION:
  
      This C/C++ program is meant to pansharpen a set of 4 
