@@ -80,10 +80,8 @@
       $ cd pansharpening_cpp/
       $ ls
       bin  Dockerfile  makefile  README.md  src  sample_data
-      $ mkdir outputs
-      
+
       Now build and run the Docker container:
-      
       $ which docker
       /usr/bin/docker
       $ docker build -t pansharpen .
