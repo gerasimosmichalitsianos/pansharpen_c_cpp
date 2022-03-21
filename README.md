@@ -57,6 +57,9 @@
       The panchromatic band should be the higher resolution geotiff, with the red, green, blue, and NIR
       bands as the lower-resolution inputs.
       
+      Use the -p for the panchromatic geotiff, -r for the red geotiff, -b for the blue geotiff,
+      -n for the NIR (near-infrared) geotiff, and -g for the green geotiff.
+      
       There will be 2 outputs: sharpened_Brovey.tif and sharpened_FIHS.tif. These will be 3 or 4
       band geotiffs written to the output directory (-o flag). If not supplying a -o flag, then the
       current working directory $(pwd) is used instead.
@@ -66,6 +69,36 @@
   
   ###### USAGE WITH DOCKER: 
 
+      This software can be built as a Docker image and run as a Docker container. See the example
+      below. It is, as usual, expected that you will be using a UNIX-like and/or Linux command-line,
+      or something similar (e.g. Ubuntu subsystem for Windows).
+      
+      $ git clone https://github.com/gerasimosmichalitsianos/pansharpening_cpp
+      $ cd pansharpening_cpp/
+      $ ls
+      bin  Dockerfile  makefile  README.md  src  sample_data
+      $ mkdir outputs
+      
+      Now build and run the Docker container:
+      
+      $ which docker
+      /usr/bin/docker
+      $ docker build -t pansharpen .
+
+      Then use your 3 or 4 input data files (.TIF, .tif) to run the Docker image
+      "pansharpen" as a Docker container:
+
+      $ ls sample_data
+      BLUE.TIF  GREEN.TIF  NIR.TIF  PAN.TIF  RED.TIF
+      $ DIR=$(pwd)
+      $ docker run -v $DIR:$DIR pansharpen 
+        -p $DIR/PAN.TIF
+        -b $DIR/BLUE.TIF
+        -r $DIR/RED.TIF
+        -n $DIR/NIR.TIF
+        -g $DIR/GREEN.TIF
+        -z 3
+        -o $DIR
 
  ######  AUTHOR: 
   
