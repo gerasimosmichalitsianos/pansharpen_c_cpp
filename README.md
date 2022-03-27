@@ -33,7 +33,7 @@
       can be compiled and run. Here is an example using the Linux command-line:
       
       $ git clone https://github.com/gerasimosmichalitsianos/pansharpening_c_cpp
-      $ cd pansharpening_cpp/
+      $ cd pansharpening_c_cpp/
       $ ls sample_data
       BLUE.TIF GREEN.TIF NIR.TIF  PAN.TIF RED.TIF
       $ make clean
@@ -72,7 +72,7 @@
       or something similar (e.g. Ubuntu subsystem for Windows).
       
       $ git clone https://github.com/gerasimosmichalitsianos/pansharpening_c_cpp
-      $ cd pansharpening_cpp/
+      $ cd pansharpening_c_cpp/
       $ ls
       bin  Dockerfile  makefile  README.md  src  sample_data
 
