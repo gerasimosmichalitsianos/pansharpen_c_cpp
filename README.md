@@ -28,6 +28,14 @@
       
       $ apt-get install gdal-bin -y
       $ apt-get install libgdal-dev -y
+      
+      It is also expected you will have a C++ compiler installed (e.g. g++),
+      as well as make:
+      
+      $ apt-get update
+      $ apt-get install -y apt-utils
+      $ apt-get -y install make
+      $ apt install g++ -y
 
       Then, after adjusting the paths as appropriate in the makefile, this program
       can be compiled and run. Here is an example using the Linux command-line:
