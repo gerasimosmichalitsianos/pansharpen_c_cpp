@@ -132,7 +132,9 @@ void Pansharpen::PansharpenImagery( int n_out_bands,const char* OutDir ) {
   switch( GDAL_DataType )
   { // check each of different GDAL imagery data types.
     case 0:
-      ; // GDT_Unknown, or unknown data type.
+      printf("image file has unknown pixel data type: %s. Exiting ...\n",
+        ImageryFileNames["pan"]);
+      exit(1);
     case 1:
       // GDAL GDT_Byte (-128 to 127) - unsigned  char
       WritePansharpenedImagery<unsigned char>( n_out_bands,OutDir );

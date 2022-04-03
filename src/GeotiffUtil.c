@@ -123,8 +123,16 @@ void ReadProjectionGeotiff( GDALDatasetH reader,Geotiff *tiff ){
   while( counter<DIMGT ) 
   {
     tiff->geotransform[counter] = *(pGT+counter);
+    ++counter;
+  }
+
+  counter=0;
+  while( counter<6 ) {
+    printf("%.6f\n", (float)tiff->geotransform[counter] );
     counter++;
   }
+  printf("%s\n","");
+
 }
 
 void ReadDimensionsGeotiff( const char* filename,GDALDatasetH reader,Geotiff *tiff ) {
