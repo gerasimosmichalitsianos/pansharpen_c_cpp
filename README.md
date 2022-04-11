@@ -107,7 +107,7 @@
  ######  AUTHOR: 
   
      Gerasimos "Geri" Michalitsianos
-     gerasimosmichalitsianos@gmail.com
+     lakithra@protonmail.com
      21 March 2022
    
  ###### EXAMPLE OUTPUT IMAGES: 
@@ -117,15 +117,3 @@
      Left: Pan-sharpened RGB using Brovey algorithm and/or technique.
    
    ![Alt text](https://i.imgur.com/LgkEZAC.png)
-
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-
