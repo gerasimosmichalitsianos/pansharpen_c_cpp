@@ -6,7 +6,7 @@
      a set of red, green, blue, and optionally, NIR bands. This is done by 
      resampling this imagery using bicubic resampling and applying 
      the Brovey and FIHS image pan-sharpening algorithms and 
-     transformations. Imagery provided by a 1 band panchromatic Geotiff 
+     transformations. Imagery provided by a 1 band, higher-resolution, panchromatic Geotiff 
      image file are also necessary. 
  ###### INPUTS:
      Data from five 1-band Geotiffs are necessary to run this program.
